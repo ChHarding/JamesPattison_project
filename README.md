@@ -1,7 +1,7 @@
 # JamesPattison_project
 Project template for HCI 584, Python Application Development
 
-#FitLens
+# FitLens
 
 FitLens is a fitness analytics dashboard that combines Apple Health export data with Hevy workout logs to give users a clearer, more actionable view of their training.
 
