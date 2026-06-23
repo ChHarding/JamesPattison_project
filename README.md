@@ -1,68 +1,103 @@
-# JamesPattison_project
-Project template for HCI 584, Python Application Development
-
 # FitLens
 
-FitLens is a fitness analytics dashboard that combines Apple Health export data with Hevy workout logs to give users a clearer, more actionable view of their training.
+Local CLI for combining my Hevy export with Apple Health data.
 
-Most fitness data is scattered across multiple apps. Apple Health may track heart rate, HRV, resting heart rate, sleep, body stats, and VO2 max, while Hevy tracks strength workouts, sets, reps, volume, and exercise progression. FitLens brings those data sources together into one place and turns them into simple scores and trends that are easier to understand and act on.
+It builds `fitlens.db`, then lets me look at:
 
-# What FitLens Does
+- coach notes
+- recent workouts
+- weekly training load
+- recovery trends
+- import/database status
 
-FitLens allows users to upload their Apple Health XML export and Hevy CSV workout export. The app parses both files, stores the data, and connects workout sessions with the matching Apple Health heart-rate data from those same time windows.
+## Setup
 
-Using that combined dataset, FitLens calculates fitness, readiness, and progression insights over time.
+```bash
+cd FitLens
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python fitlens.py
+```
 
-Core Scores
-Readiness Score
+## Exports
 
-The readiness score is designed to estimate how prepared the user is for training based on recovery and recent strain.
+Apple Health:
 
-It uses signals such as:
+- Health app
+- profile photo
+- Export All Health Data
+- unzip it and use `export.xml`
 
-Heart rate variability
-Resting heart rate
-Sleep quality
-Recent training load
-Recent workout intensity
-Fitness Score
+Hevy:
 
-The fitness score tracks overall fitness trends by combining cardiovascular, strength, and consistency metrics.
+- Settings
+- Export Data
+- use `workouts.csv`
 
-It may include:
+If both files are in `~/Downloads`, FitLens will usually find them.
 
-VO2 max trend
-Strength progression across logged lifts
-Training consistency
-Workout frequency
-Long-term performance trends
-Progression Score
+## How I use it
 
-The progression score focuses on whether the user’s training is moving in the right direction.
+Run:
 
-It analyzes Hevy workout data such as:
+```bash
+.venv/bin/python fitlens.py
+```
 
-Training volume
-Exercise intensity
-Set and rep trends
-Strength progression
-Plateau detection
-Potential overreaching signals
-Dashboard
+First run imports the data. After that it opens the menu.
 
-FitLens presents all of this information in a single dashboard with charts, score history, and trend summaries. The goal is to help users quickly understand whether they are improving, maintaining, plateauing, or pushing too hard.
+The app is guided only. I removed command-line flags/subcommands because I kept
+forgetting what to type and the menu is easier.
 
-# Data Import Flow
+## Recovery view
 
-The initial version of FitLens uses file uploads rather than live API integrations.
+Recovery trends show:
 
-Users upload:
+- 7-day average
+- 30-day average
+- 60-day average
+- 90-day average
 
-An Apple Health XML export
-A Hevy CSV workout export
+It also compares each window to the previous same-length window. So 7-day is
+compared to the prior 7 days, 30-day to the prior 30 days, etc.
 
-FitLens then parses, normalizes, and stores the data. Users can periodically re-upload updated exports to refresh their dashboard and scores.
+The dates are based on the newest data in `fitlens.db`, not today's date. If the
+latest Health export in the database ends on May 17, the recovery windows end on
+May 17.
 
-# Project Goal
+## Data
 
-The goal of FitLens is to turn raw fitness data into useful training feedback. Instead of forcing users to manually compare multiple apps, FitLens connects workout logs, recovery metrics, heart-rate data, and body stats into one clear picture of health and performance.
+Main tables:
+
+| table | notes |
+|---|---|
+| `workouts` | Hevy workouts |
+| `workout_sets` | sets from Hevy |
+| `workout_health_summary` | heart rate, effort, energy, etc. during workouts |
+| `daily_health` | steps, resting HR, HRV, VO2 max, body mass, etc. |
+| `daily_sleep` | sleep totals/stages |
+| `apple_workouts` | Apple Watch workout records |
+| `import_meta` | import paths, timezone, watermark |
+
+Useful query:
+
+```sql
+SELECT w.title, w.start_local, s.avg, s.max
+FROM workouts w
+JOIN workout_health_summary s ON s.workout_id = w.workout_id
+WHERE s.metric_type = 'HeartRate'
+ORDER BY w.start_utc DESC
+LIMIT 10;
+```
+
+## Files
+
+- `fitlens.py` - CLI/menu
+- `insights.py` - coach queries
+- `engine.py` - import flow
+- `parse_workouts.py` - Hevy CSV parser
+- `health_stream.py` - Apple Health XML parser
+- `db.py` - SQLite schema/writes
+- `common.py` - small helpers
+
+The parser/import code is stdlib. The CLI uses `rich` and `questionary`.
