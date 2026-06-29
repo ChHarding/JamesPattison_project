@@ -1,7 +1,5 @@
 """Stream the giant Apple Health export without loading it all."""
 
-from __future__ import annotations
-
 import calendar
 from bisect import bisect_right
 from dataclasses import dataclass, field
