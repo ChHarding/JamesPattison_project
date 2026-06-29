@@ -1,0 +1,318 @@
+title,description,start_time,end_time,exercise_title,superset_id,exercise_notes,set_index,set_type,weight_lbs,reps,distance_miles,duration_seconds,rpe
+Upper Body,demo workout,"Feb 1, 2026, 6:00 PM","Feb 1, 2026, 6:55 PM",Bench Press,,,1,normal,65.0,8,,,7.0
+Upper Body,demo workout,"Feb 1, 2026, 6:00 PM","Feb 1, 2026, 6:55 PM",Bench Press,,,2,normal,72.0,9,,,7.2
+Upper Body,demo workout,"Feb 1, 2026, 6:00 PM","Feb 1, 2026, 6:55 PM",Bench Press,,,3,normal,79.0,10,,,7.4
+Upper Body,demo workout,"Feb 1, 2026, 6:00 PM","Feb 1, 2026, 6:55 PM",Lat Pulldown,,,4,normal,65.0,8,,,7.0
+Upper Body,demo workout,"Feb 1, 2026, 6:00 PM","Feb 1, 2026, 6:55 PM",Lat Pulldown,,,5,normal,72.0,9,,,7.2
+Upper Body,demo workout,"Feb 1, 2026, 6:00 PM","Feb 1, 2026, 6:55 PM",Lat Pulldown,,,6,normal,79.0,10,,,7.4
+Upper Body,demo workout,"Feb 1, 2026, 6:00 PM","Feb 1, 2026, 6:55 PM",Dumbbell Row,,,7,normal,65.0,8,,,7.0
+Upper Body,demo workout,"Feb 1, 2026, 6:00 PM","Feb 1, 2026, 6:55 PM",Dumbbell Row,,,8,normal,72.0,9,,,7.2
+Upper Body,demo workout,"Feb 1, 2026, 6:00 PM","Feb 1, 2026, 6:55 PM",Dumbbell Row,,,9,normal,79.0,10,,,7.4
+Upper Body,demo workout,"Feb 1, 2026, 6:00 PM","Feb 1, 2026, 6:55 PM",Plank,,,10,normal,,,,35,6.5
+Upper Body,demo workout,"Feb 1, 2026, 6:00 PM","Feb 1, 2026, 6:55 PM",Plank,,,11,normal,,,,45,6.7
+Lower Body,demo workout,"Feb 4, 2026, 6:15 PM","Feb 4, 2026, 7:15 PM",Goblet Squat,,,1,normal,67.8,8,,,7.3
+Lower Body,demo workout,"Feb 4, 2026, 6:15 PM","Feb 4, 2026, 7:15 PM",Goblet Squat,,,2,normal,74.8,9,,,7.5
+Lower Body,demo workout,"Feb 4, 2026, 6:15 PM","Feb 4, 2026, 7:15 PM",Goblet Squat,,,3,normal,81.8,10,,,7.7
+Lower Body,demo workout,"Feb 4, 2026, 6:15 PM","Feb 4, 2026, 7:15 PM",Romanian Deadlift,,,4,normal,67.8,8,,,7.3
+Lower Body,demo workout,"Feb 4, 2026, 6:15 PM","Feb 4, 2026, 7:15 PM",Romanian Deadlift,,,5,normal,74.8,9,,,7.5
+Lower Body,demo workout,"Feb 4, 2026, 6:15 PM","Feb 4, 2026, 7:15 PM",Romanian Deadlift,,,6,normal,81.8,10,,,7.7
+Lower Body,demo workout,"Feb 4, 2026, 6:15 PM","Feb 4, 2026, 7:15 PM",Plank,,,7,normal,,,,35,6.5
+Lower Body,demo workout,"Feb 4, 2026, 6:15 PM","Feb 4, 2026, 7:15 PM",Plank,,,8,normal,,,,45,6.7
+Zone 2 Cardio,demo cardio,"Feb 6, 2026, 7:00 AM","Feb 6, 2026, 7:50 AM",Treadmill,,,1,normal,,,3.2,3000,5.2
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Goblet Squat,,,1,normal,73.4,8,,,7.0
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Goblet Squat,,,2,normal,80.4,9,,,7.2
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Goblet Squat,,,3,normal,87.4,10,,,7.4
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Bench Press,,,4,normal,73.4,8,,,7.0
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Bench Press,,,5,normal,80.4,9,,,7.2
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Bench Press,,,6,normal,87.4,10,,,7.4
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Dumbbell Row,,,7,normal,73.4,8,,,7.0
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Dumbbell Row,,,8,normal,80.4,9,,,7.2
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Dumbbell Row,,,9,normal,87.4,10,,,7.4
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Romanian Deadlift,,,10,normal,73.4,8,,,7.0
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Romanian Deadlift,,,11,normal,80.4,9,,,7.2
+Full Body,demo workout,"Feb 9, 2026, 6:15 PM","Feb 9, 2026, 7:20 PM",Romanian Deadlift,,,12,normal,87.4,10,,,7.4
+Intervals,demo cardio,"Feb 11, 2026, 6:00 PM","Feb 11, 2026, 6:35 PM",Treadmill,,,1,normal,,,2.1,2100,8.0
+Upper Body,demo workout,"Feb 14, 2026, 6:15 PM","Feb 14, 2026, 7:10 PM",Bench Press,,,1,normal,71.0,8,,,6.7
+Upper Body,demo workout,"Feb 14, 2026, 6:15 PM","Feb 14, 2026, 7:10 PM",Bench Press,,,2,normal,78.0,9,,,6.9
+Upper Body,demo workout,"Feb 14, 2026, 6:15 PM","Feb 14, 2026, 7:10 PM",Bench Press,,,3,normal,85.0,10,,,7.1
+Upper Body,demo workout,"Feb 14, 2026, 6:15 PM","Feb 14, 2026, 7:10 PM",Lat Pulldown,,,4,normal,71.0,8,,,6.7
+Upper Body,demo workout,"Feb 14, 2026, 6:15 PM","Feb 14, 2026, 7:10 PM",Lat Pulldown,,,5,normal,78.0,9,,,6.9
+Upper Body,demo workout,"Feb 14, 2026, 6:15 PM","Feb 14, 2026, 7:10 PM",Lat Pulldown,,,6,normal,85.0,10,,,7.1
+Upper Body,demo workout,"Feb 14, 2026, 6:15 PM","Feb 14, 2026, 7:10 PM",Dumbbell Row,,,7,normal,71.0,8,,,6.7
+Upper Body,demo workout,"Feb 14, 2026, 6:15 PM","Feb 14, 2026, 7:10 PM",Dumbbell Row,,,8,normal,78.0,9,,,6.9
+Upper Body,demo workout,"Feb 14, 2026, 6:15 PM","Feb 14, 2026, 7:10 PM",Dumbbell Row,,,9,normal,85.0,10,,,7.1
+Upper Body,demo workout,"Feb 14, 2026, 6:15 PM","Feb 14, 2026, 7:10 PM",Plank,,,10,normal,,,,36,6.5
+Upper Body,demo workout,"Feb 14, 2026, 6:15 PM","Feb 14, 2026, 7:10 PM",Plank,,,11,normal,,,,46,6.7
+Lower Body,demo workout,"Feb 16, 2026, 6:00 PM","Feb 16, 2026, 7:00 PM",Goblet Squat,,,1,normal,73.8,8,,,6.9
+Lower Body,demo workout,"Feb 16, 2026, 6:00 PM","Feb 16, 2026, 7:00 PM",Goblet Squat,,,2,normal,80.8,9,,,7.1
+Lower Body,demo workout,"Feb 16, 2026, 6:00 PM","Feb 16, 2026, 7:00 PM",Goblet Squat,,,3,normal,87.8,10,,,7.3
+Lower Body,demo workout,"Feb 16, 2026, 6:00 PM","Feb 16, 2026, 7:00 PM",Romanian Deadlift,,,4,normal,73.8,8,,,6.9
+Lower Body,demo workout,"Feb 16, 2026, 6:00 PM","Feb 16, 2026, 7:00 PM",Romanian Deadlift,,,5,normal,80.8,9,,,7.1
+Lower Body,demo workout,"Feb 16, 2026, 6:00 PM","Feb 16, 2026, 7:00 PM",Romanian Deadlift,,,6,normal,87.8,10,,,7.3
+Lower Body,demo workout,"Feb 16, 2026, 6:00 PM","Feb 16, 2026, 7:00 PM",Plank,,,7,normal,,,,36,6.5
+Lower Body,demo workout,"Feb 16, 2026, 6:00 PM","Feb 16, 2026, 7:00 PM",Plank,,,8,normal,,,,46,6.7
+Zone 2 Cardio,demo cardio,"Feb 19, 2026, 7:15 AM","Feb 19, 2026, 8:05 AM",Treadmill,,,1,normal,,,3.2,3000,5.2
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Goblet Squat,,,1,normal,71.4,8,,,7.3
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Goblet Squat,,,2,normal,78.4,9,,,7.5
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Goblet Squat,,,3,normal,85.4,10,,,7.7
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Bench Press,,,4,normal,71.4,8,,,7.3
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Bench Press,,,5,normal,78.4,9,,,7.5
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Bench Press,,,6,normal,85.4,10,,,7.7
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Dumbbell Row,,,7,normal,71.4,8,,,7.3
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Dumbbell Row,,,8,normal,78.4,9,,,7.5
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Dumbbell Row,,,9,normal,85.4,10,,,7.7
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Romanian Deadlift,,,10,normal,71.4,8,,,7.3
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Romanian Deadlift,,,11,normal,78.4,9,,,7.5
+Full Body,demo workout,"Feb 21, 2026, 6:00 PM","Feb 21, 2026, 7:05 PM",Romanian Deadlift,,,12,normal,85.4,10,,,7.7
+Intervals,demo cardio,"Feb 24, 2026, 6:15 PM","Feb 24, 2026, 6:50 PM",Treadmill,,,1,normal,,,2.1,2100,8.0
+Upper Body,demo workout,"Feb 26, 2026, 6:00 PM","Feb 26, 2026, 6:55 PM",Bench Press,,,1,normal,77.0,8,,,6.8
+Upper Body,demo workout,"Feb 26, 2026, 6:00 PM","Feb 26, 2026, 6:55 PM",Bench Press,,,2,normal,84.0,9,,,7.0
+Upper Body,demo workout,"Feb 26, 2026, 6:00 PM","Feb 26, 2026, 6:55 PM",Bench Press,,,3,normal,91.0,10,,,7.2
+Upper Body,demo workout,"Feb 26, 2026, 6:00 PM","Feb 26, 2026, 6:55 PM",Lat Pulldown,,,4,normal,77.0,8,,,6.8
+Upper Body,demo workout,"Feb 26, 2026, 6:00 PM","Feb 26, 2026, 6:55 PM",Lat Pulldown,,,5,normal,84.0,9,,,7.0
+Upper Body,demo workout,"Feb 26, 2026, 6:00 PM","Feb 26, 2026, 6:55 PM",Lat Pulldown,,,6,normal,91.0,10,,,7.2
+Upper Body,demo workout,"Feb 26, 2026, 6:00 PM","Feb 26, 2026, 6:55 PM",Dumbbell Row,,,7,normal,77.0,8,,,6.8
+Upper Body,demo workout,"Feb 26, 2026, 6:00 PM","Feb 26, 2026, 6:55 PM",Dumbbell Row,,,8,normal,84.0,9,,,7.0
+Upper Body,demo workout,"Feb 26, 2026, 6:00 PM","Feb 26, 2026, 6:55 PM",Dumbbell Row,,,9,normal,91.0,10,,,7.2
+Upper Body,demo workout,"Feb 26, 2026, 6:00 PM","Feb 26, 2026, 6:55 PM",Plank,,,10,normal,,,,38,6.5
+Upper Body,demo workout,"Feb 26, 2026, 6:00 PM","Feb 26, 2026, 6:55 PM",Plank,,,11,normal,,,,48,6.7
+Lower Body,demo workout,"Mar 1, 2026, 6:15 PM","Mar 1, 2026, 7:15 PM",Goblet Squat,,,1,normal,79.8,8,,,6.7
+Lower Body,demo workout,"Mar 1, 2026, 6:15 PM","Mar 1, 2026, 7:15 PM",Goblet Squat,,,2,normal,86.8,9,,,6.9
+Lower Body,demo workout,"Mar 1, 2026, 6:15 PM","Mar 1, 2026, 7:15 PM",Goblet Squat,,,3,normal,93.8,10,,,7.1
+Lower Body,demo workout,"Mar 1, 2026, 6:15 PM","Mar 1, 2026, 7:15 PM",Romanian Deadlift,,,4,normal,79.8,8,,,6.7
+Lower Body,demo workout,"Mar 1, 2026, 6:15 PM","Mar 1, 2026, 7:15 PM",Romanian Deadlift,,,5,normal,86.8,9,,,6.9
+Lower Body,demo workout,"Mar 1, 2026, 6:15 PM","Mar 1, 2026, 7:15 PM",Romanian Deadlift,,,6,normal,93.8,10,,,7.1
+Lower Body,demo workout,"Mar 1, 2026, 6:15 PM","Mar 1, 2026, 7:15 PM",Plank,,,7,normal,,,,38,6.5
+Lower Body,demo workout,"Mar 1, 2026, 6:15 PM","Mar 1, 2026, 7:15 PM",Plank,,,8,normal,,,,48,6.7
+Zone 2 Cardio,demo cardio,"Mar 3, 2026, 7:00 AM","Mar 3, 2026, 7:50 AM",Treadmill,,,1,normal,,,3.2,3000,5.2
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Goblet Squat,,,1,normal,77.4,8,,,7.1
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Goblet Squat,,,2,normal,84.4,9,,,7.3
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Goblet Squat,,,3,normal,91.4,10,,,7.5
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Bench Press,,,4,normal,77.4,8,,,7.1
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Bench Press,,,5,normal,84.4,9,,,7.3
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Bench Press,,,6,normal,91.4,10,,,7.5
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Dumbbell Row,,,7,normal,77.4,8,,,7.1
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Dumbbell Row,,,8,normal,84.4,9,,,7.3
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Dumbbell Row,,,9,normal,91.4,10,,,7.5
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Romanian Deadlift,,,10,normal,77.4,8,,,7.1
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Romanian Deadlift,,,11,normal,84.4,9,,,7.3
+Full Body,demo workout,"Mar 6, 2026, 6:15 PM","Mar 6, 2026, 7:20 PM",Romanian Deadlift,,,12,normal,91.4,10,,,7.5
+Intervals,demo cardio,"Mar 8, 2026, 6:00 PM","Mar 8, 2026, 6:35 PM",Treadmill,,,1,normal,,,2.1,2100,8.0
+Upper Body,demo workout,"Mar 11, 2026, 6:15 PM","Mar 11, 2026, 7:10 PM",Bench Press,,,1,normal,83.0,8,,,7.2
+Upper Body,demo workout,"Mar 11, 2026, 6:15 PM","Mar 11, 2026, 7:10 PM",Bench Press,,,2,normal,90.0,9,,,7.4
+Upper Body,demo workout,"Mar 11, 2026, 6:15 PM","Mar 11, 2026, 7:10 PM",Bench Press,,,3,normal,97.0,10,,,7.6
+Upper Body,demo workout,"Mar 11, 2026, 6:15 PM","Mar 11, 2026, 7:10 PM",Lat Pulldown,,,4,normal,83.0,8,,,7.2
+Upper Body,demo workout,"Mar 11, 2026, 6:15 PM","Mar 11, 2026, 7:10 PM",Lat Pulldown,,,5,normal,90.0,9,,,7.4
+Upper Body,demo workout,"Mar 11, 2026, 6:15 PM","Mar 11, 2026, 7:10 PM",Lat Pulldown,,,6,normal,97.0,10,,,7.6
+Upper Body,demo workout,"Mar 11, 2026, 6:15 PM","Mar 11, 2026, 7:10 PM",Dumbbell Row,,,7,normal,83.0,8,,,7.2
+Upper Body,demo workout,"Mar 11, 2026, 6:15 PM","Mar 11, 2026, 7:10 PM",Dumbbell Row,,,8,normal,90.0,9,,,7.4
+Upper Body,demo workout,"Mar 11, 2026, 6:15 PM","Mar 11, 2026, 7:10 PM",Dumbbell Row,,,9,normal,97.0,10,,,7.6
+Upper Body,demo workout,"Mar 11, 2026, 6:15 PM","Mar 11, 2026, 7:10 PM",Plank,,,10,normal,,,,39,6.5
+Upper Body,demo workout,"Mar 11, 2026, 6:15 PM","Mar 11, 2026, 7:10 PM",Plank,,,11,normal,,,,49,6.7
+Lower Body,demo workout,"Mar 14, 2026, 6:00 PM","Mar 14, 2026, 7:00 PM",Goblet Squat,,,1,normal,77.8,8,,,6.9
+Lower Body,demo workout,"Mar 14, 2026, 6:00 PM","Mar 14, 2026, 7:00 PM",Goblet Squat,,,2,normal,84.8,9,,,7.1
+Lower Body,demo workout,"Mar 14, 2026, 6:00 PM","Mar 14, 2026, 7:00 PM",Goblet Squat,,,3,normal,91.8,10,,,7.3
+Lower Body,demo workout,"Mar 14, 2026, 6:00 PM","Mar 14, 2026, 7:00 PM",Romanian Deadlift,,,4,normal,77.8,8,,,6.9
+Lower Body,demo workout,"Mar 14, 2026, 6:00 PM","Mar 14, 2026, 7:00 PM",Romanian Deadlift,,,5,normal,84.8,9,,,7.1
+Lower Body,demo workout,"Mar 14, 2026, 6:00 PM","Mar 14, 2026, 7:00 PM",Romanian Deadlift,,,6,normal,91.8,10,,,7.3
+Lower Body,demo workout,"Mar 14, 2026, 6:00 PM","Mar 14, 2026, 7:00 PM",Plank,,,7,normal,,,,40,6.5
+Lower Body,demo workout,"Mar 14, 2026, 6:00 PM","Mar 14, 2026, 7:00 PM",Plank,,,8,normal,,,,50,6.7
+Zone 2 Cardio,demo cardio,"Mar 16, 2026, 7:15 AM","Mar 16, 2026, 8:05 AM",Treadmill,,,1,normal,,,3.2,3000,5.2
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Goblet Squat,,,1,normal,83.4,8,,,6.8
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Goblet Squat,,,2,normal,90.4,9,,,7.0
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Goblet Squat,,,3,normal,97.4,10,,,7.2
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Bench Press,,,4,normal,83.4,8,,,6.8
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Bench Press,,,5,normal,90.4,9,,,7.0
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Bench Press,,,6,normal,97.4,10,,,7.2
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Dumbbell Row,,,7,normal,83.4,8,,,6.8
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Dumbbell Row,,,8,normal,90.4,9,,,7.0
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Dumbbell Row,,,9,normal,97.4,10,,,7.2
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Romanian Deadlift,,,10,normal,83.4,8,,,6.8
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Romanian Deadlift,,,11,normal,90.4,9,,,7.0
+Full Body,demo workout,"Mar 19, 2026, 6:00 PM","Mar 19, 2026, 7:05 PM",Romanian Deadlift,,,12,normal,97.4,10,,,7.2
+Intervals,demo cardio,"Mar 21, 2026, 6:15 PM","Mar 21, 2026, 6:50 PM",Treadmill,,,1,normal,,,2.1,2100,8.0
+Upper Body,demo workout,"Mar 24, 2026, 6:00 PM","Mar 24, 2026, 6:55 PM",Bench Press,,,1,normal,81.0,8,,,7.3
+Upper Body,demo workout,"Mar 24, 2026, 6:00 PM","Mar 24, 2026, 6:55 PM",Bench Press,,,2,normal,88.0,9,,,7.5
+Upper Body,demo workout,"Mar 24, 2026, 6:00 PM","Mar 24, 2026, 6:55 PM",Bench Press,,,3,normal,95.0,10,,,7.7
+Upper Body,demo workout,"Mar 24, 2026, 6:00 PM","Mar 24, 2026, 6:55 PM",Lat Pulldown,,,4,normal,81.0,8,,,7.3
+Upper Body,demo workout,"Mar 24, 2026, 6:00 PM","Mar 24, 2026, 6:55 PM",Lat Pulldown,,,5,normal,88.0,9,,,7.5
+Upper Body,demo workout,"Mar 24, 2026, 6:00 PM","Mar 24, 2026, 6:55 PM",Lat Pulldown,,,6,normal,95.0,10,,,7.7
+Upper Body,demo workout,"Mar 24, 2026, 6:00 PM","Mar 24, 2026, 6:55 PM",Dumbbell Row,,,7,normal,81.0,8,,,7.3
+Upper Body,demo workout,"Mar 24, 2026, 6:00 PM","Mar 24, 2026, 6:55 PM",Dumbbell Row,,,8,normal,88.0,9,,,7.5
+Upper Body,demo workout,"Mar 24, 2026, 6:00 PM","Mar 24, 2026, 6:55 PM",Dumbbell Row,,,9,normal,95.0,10,,,7.7
+Upper Body,demo workout,"Mar 24, 2026, 6:00 PM","Mar 24, 2026, 6:55 PM",Plank,,,10,normal,,,,41,6.5
+Upper Body,demo workout,"Mar 24, 2026, 6:00 PM","Mar 24, 2026, 6:55 PM",Plank,,,11,normal,,,,51,6.7
+Lower Body,demo workout,"Mar 26, 2026, 6:15 PM","Mar 26, 2026, 7:15 PM",Goblet Squat,,,1,normal,83.8,8,,,7.3
+Lower Body,demo workout,"Mar 26, 2026, 6:15 PM","Mar 26, 2026, 7:15 PM",Goblet Squat,,,2,normal,90.8,9,,,7.5
+Lower Body,demo workout,"Mar 26, 2026, 6:15 PM","Mar 26, 2026, 7:15 PM",Goblet Squat,,,3,normal,97.8,10,,,7.7
+Lower Body,demo workout,"Mar 26, 2026, 6:15 PM","Mar 26, 2026, 7:15 PM",Romanian Deadlift,,,4,normal,83.8,8,,,7.3
+Lower Body,demo workout,"Mar 26, 2026, 6:15 PM","Mar 26, 2026, 7:15 PM",Romanian Deadlift,,,5,normal,90.8,9,,,7.5
+Lower Body,demo workout,"Mar 26, 2026, 6:15 PM","Mar 26, 2026, 7:15 PM",Romanian Deadlift,,,6,normal,97.8,10,,,7.7
+Lower Body,demo workout,"Mar 26, 2026, 6:15 PM","Mar 26, 2026, 7:15 PM",Plank,,,7,normal,,,,41,6.5
+Lower Body,demo workout,"Mar 26, 2026, 6:15 PM","Mar 26, 2026, 7:15 PM",Plank,,,8,normal,,,,51,6.7
+Zone 2 Cardio,demo cardio,"Mar 29, 2026, 7:00 AM","Mar 29, 2026, 7:50 AM",Treadmill,,,1,normal,,,3.2,3000,5.2
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Goblet Squat,,,1,normal,89.4,8,,,6.7
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Goblet Squat,,,2,normal,96.4,9,,,6.9
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Goblet Squat,,,3,normal,103.4,10,,,7.1
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Bench Press,,,4,normal,89.4,8,,,6.7
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Bench Press,,,5,normal,96.4,9,,,6.9
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Bench Press,,,6,normal,103.4,10,,,7.1
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Dumbbell Row,,,7,normal,89.4,8,,,6.7
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Dumbbell Row,,,8,normal,96.4,9,,,6.9
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Dumbbell Row,,,9,normal,103.4,10,,,7.1
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Romanian Deadlift,,,10,normal,89.4,8,,,6.7
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Romanian Deadlift,,,11,normal,96.4,9,,,6.9
+Full Body,demo workout,"Mar 31, 2026, 6:15 PM","Mar 31, 2026, 7:20 PM",Romanian Deadlift,,,12,normal,103.4,10,,,7.1
+Intervals,demo cardio,"Apr 3, 2026, 6:00 PM","Apr 3, 2026, 6:35 PM",Treadmill,,,1,normal,,,2.1,2100,8.0
+Upper Body,demo workout,"Apr 5, 2026, 6:15 PM","Apr 5, 2026, 7:10 PM",Bench Press,,,1,normal,87.0,8,,,7.0
+Upper Body,demo workout,"Apr 5, 2026, 6:15 PM","Apr 5, 2026, 7:10 PM",Bench Press,,,2,normal,94.0,9,,,7.2
+Upper Body,demo workout,"Apr 5, 2026, 6:15 PM","Apr 5, 2026, 7:10 PM",Bench Press,,,3,normal,101.0,10,,,7.4
+Upper Body,demo workout,"Apr 5, 2026, 6:15 PM","Apr 5, 2026, 7:10 PM",Lat Pulldown,,,4,normal,87.0,8,,,7.0
+Upper Body,demo workout,"Apr 5, 2026, 6:15 PM","Apr 5, 2026, 7:10 PM",Lat Pulldown,,,5,normal,94.0,9,,,7.2
+Upper Body,demo workout,"Apr 5, 2026, 6:15 PM","Apr 5, 2026, 7:10 PM",Lat Pulldown,,,6,normal,101.0,10,,,7.4
+Upper Body,demo workout,"Apr 5, 2026, 6:15 PM","Apr 5, 2026, 7:10 PM",Dumbbell Row,,,7,normal,87.0,8,,,7.0
+Upper Body,demo workout,"Apr 5, 2026, 6:15 PM","Apr 5, 2026, 7:10 PM",Dumbbell Row,,,8,normal,94.0,9,,,7.2
+Upper Body,demo workout,"Apr 5, 2026, 6:15 PM","Apr 5, 2026, 7:10 PM",Dumbbell Row,,,9,normal,101.0,10,,,7.4
+Upper Body,demo workout,"Apr 5, 2026, 6:15 PM","Apr 5, 2026, 7:10 PM",Plank,,,10,normal,,,,42,6.5
+Upper Body,demo workout,"Apr 5, 2026, 6:15 PM","Apr 5, 2026, 7:10 PM",Plank,,,11,normal,,,,52,6.7
+Lower Body,demo workout,"Apr 8, 2026, 6:00 PM","Apr 8, 2026, 7:00 PM",Goblet Squat,,,1,normal,89.8,8,,,7.2
+Lower Body,demo workout,"Apr 8, 2026, 6:00 PM","Apr 8, 2026, 7:00 PM",Goblet Squat,,,2,normal,96.8,9,,,7.4
+Lower Body,demo workout,"Apr 8, 2026, 6:00 PM","Apr 8, 2026, 7:00 PM",Goblet Squat,,,3,normal,103.8,10,,,7.6
+Lower Body,demo workout,"Apr 8, 2026, 6:00 PM","Apr 8, 2026, 7:00 PM",Romanian Deadlift,,,4,normal,89.8,8,,,7.2
+Lower Body,demo workout,"Apr 8, 2026, 6:00 PM","Apr 8, 2026, 7:00 PM",Romanian Deadlift,,,5,normal,96.8,9,,,7.4
+Lower Body,demo workout,"Apr 8, 2026, 6:00 PM","Apr 8, 2026, 7:00 PM",Romanian Deadlift,,,6,normal,103.8,10,,,7.6
+Lower Body,demo workout,"Apr 8, 2026, 6:00 PM","Apr 8, 2026, 7:00 PM",Plank,,,7,normal,,,,43,6.5
+Lower Body,demo workout,"Apr 8, 2026, 6:00 PM","Apr 8, 2026, 7:00 PM",Plank,,,8,normal,,,,53,6.7
+Zone 2 Cardio,demo cardio,"Apr 10, 2026, 7:15 AM","Apr 10, 2026, 8:05 AM",Treadmill,,,1,normal,,,3.2,3000,5.2
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Goblet Squat,,,1,normal,87.4,8,,,7.1
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Goblet Squat,,,2,normal,94.4,9,,,7.3
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Goblet Squat,,,3,normal,101.4,10,,,7.5
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Bench Press,,,4,normal,87.4,8,,,7.1
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Bench Press,,,5,normal,94.4,9,,,7.3
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Bench Press,,,6,normal,101.4,10,,,7.5
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Dumbbell Row,,,7,normal,87.4,8,,,7.1
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Dumbbell Row,,,8,normal,94.4,9,,,7.3
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Dumbbell Row,,,9,normal,101.4,10,,,7.5
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Romanian Deadlift,,,10,normal,87.4,8,,,7.1
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Romanian Deadlift,,,11,normal,94.4,9,,,7.3
+Full Body,demo workout,"Apr 13, 2026, 6:00 PM","Apr 13, 2026, 7:05 PM",Romanian Deadlift,,,12,normal,101.4,10,,,7.5
+Intervals,demo cardio,"Apr 15, 2026, 6:15 PM","Apr 15, 2026, 6:50 PM",Treadmill,,,1,normal,,,2.1,2100,8.0
+Upper Body,demo workout,"Apr 18, 2026, 6:00 PM","Apr 18, 2026, 6:55 PM",Bench Press,,,1,normal,93.0,8,,,6.7
+Upper Body,demo workout,"Apr 18, 2026, 6:00 PM","Apr 18, 2026, 6:55 PM",Bench Press,,,2,normal,100.0,9,,,6.9
+Upper Body,demo workout,"Apr 18, 2026, 6:00 PM","Apr 18, 2026, 6:55 PM",Bench Press,,,3,normal,107.0,10,,,7.1
+Upper Body,demo workout,"Apr 18, 2026, 6:00 PM","Apr 18, 2026, 6:55 PM",Lat Pulldown,,,4,normal,93.0,8,,,6.7
+Upper Body,demo workout,"Apr 18, 2026, 6:00 PM","Apr 18, 2026, 6:55 PM",Lat Pulldown,,,5,normal,100.0,9,,,6.9
+Upper Body,demo workout,"Apr 18, 2026, 6:00 PM","Apr 18, 2026, 6:55 PM",Lat Pulldown,,,6,normal,107.0,10,,,7.1
+Upper Body,demo workout,"Apr 18, 2026, 6:00 PM","Apr 18, 2026, 6:55 PM",Dumbbell Row,,,7,normal,93.0,8,,,6.7
+Upper Body,demo workout,"Apr 18, 2026, 6:00 PM","Apr 18, 2026, 6:55 PM",Dumbbell Row,,,8,normal,100.0,9,,,6.9
+Upper Body,demo workout,"Apr 18, 2026, 6:00 PM","Apr 18, 2026, 6:55 PM",Dumbbell Row,,,9,normal,107.0,10,,,7.1
+Upper Body,demo workout,"Apr 18, 2026, 6:00 PM","Apr 18, 2026, 6:55 PM",Plank,,,10,normal,,,,44,6.5
+Upper Body,demo workout,"Apr 18, 2026, 6:00 PM","Apr 18, 2026, 6:55 PM",Plank,,,11,normal,,,,54,6.7
+Lower Body,demo workout,"Apr 20, 2026, 6:15 PM","Apr 20, 2026, 7:15 PM",Goblet Squat,,,1,normal,95.8,8,,,6.9
+Lower Body,demo workout,"Apr 20, 2026, 6:15 PM","Apr 20, 2026, 7:15 PM",Goblet Squat,,,2,normal,102.8,9,,,7.1
+Lower Body,demo workout,"Apr 20, 2026, 6:15 PM","Apr 20, 2026, 7:15 PM",Goblet Squat,,,3,normal,109.8,10,,,7.3
+Lower Body,demo workout,"Apr 20, 2026, 6:15 PM","Apr 20, 2026, 7:15 PM",Romanian Deadlift,,,4,normal,95.8,8,,,6.9
+Lower Body,demo workout,"Apr 20, 2026, 6:15 PM","Apr 20, 2026, 7:15 PM",Romanian Deadlift,,,5,normal,102.8,9,,,7.1
+Lower Body,demo workout,"Apr 20, 2026, 6:15 PM","Apr 20, 2026, 7:15 PM",Romanian Deadlift,,,6,normal,109.8,10,,,7.3
+Lower Body,demo workout,"Apr 20, 2026, 6:15 PM","Apr 20, 2026, 7:15 PM",Plank,,,7,normal,,,,44,6.5
+Lower Body,demo workout,"Apr 20, 2026, 6:15 PM","Apr 20, 2026, 7:15 PM",Plank,,,8,normal,,,,54,6.7
+Zone 2 Cardio,demo cardio,"Apr 23, 2026, 7:00 AM","Apr 23, 2026, 7:50 AM",Treadmill,,,1,normal,,,3.2,3000,5.2
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Goblet Squat,,,1,normal,93.4,8,,,7.3
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Goblet Squat,,,2,normal,100.4,9,,,7.5
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Goblet Squat,,,3,normal,107.4,10,,,7.7
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Bench Press,,,4,normal,93.4,8,,,7.3
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Bench Press,,,5,normal,100.4,9,,,7.5
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Bench Press,,,6,normal,107.4,10,,,7.7
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Dumbbell Row,,,7,normal,93.4,8,,,7.3
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Dumbbell Row,,,8,normal,100.4,9,,,7.5
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Dumbbell Row,,,9,normal,107.4,10,,,7.7
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Romanian Deadlift,,,10,normal,93.4,8,,,7.3
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Romanian Deadlift,,,11,normal,100.4,9,,,7.5
+Full Body,demo workout,"Apr 26, 2026, 6:15 PM","Apr 26, 2026, 7:20 PM",Romanian Deadlift,,,12,normal,107.4,10,,,7.7
+Intervals,demo cardio,"Apr 28, 2026, 6:00 PM","Apr 28, 2026, 6:35 PM",Treadmill,,,1,normal,,,2.1,2100,8.0
+Upper Body,demo workout,"May 1, 2026, 6:15 PM","May 1, 2026, 7:10 PM",Bench Press,,,1,normal,99.0,8,,,6.9
+Upper Body,demo workout,"May 1, 2026, 6:15 PM","May 1, 2026, 7:10 PM",Bench Press,,,2,normal,106.0,9,,,7.1
+Upper Body,demo workout,"May 1, 2026, 6:15 PM","May 1, 2026, 7:10 PM",Bench Press,,,3,normal,113.0,10,,,7.3
+Upper Body,demo workout,"May 1, 2026, 6:15 PM","May 1, 2026, 7:10 PM",Lat Pulldown,,,4,normal,99.0,8,,,6.9
+Upper Body,demo workout,"May 1, 2026, 6:15 PM","May 1, 2026, 7:10 PM",Lat Pulldown,,,5,normal,106.0,9,,,7.1
+Upper Body,demo workout,"May 1, 2026, 6:15 PM","May 1, 2026, 7:10 PM",Lat Pulldown,,,6,normal,113.0,10,,,7.3
+Upper Body,demo workout,"May 1, 2026, 6:15 PM","May 1, 2026, 7:10 PM",Dumbbell Row,,,7,normal,99.0,8,,,6.9
+Upper Body,demo workout,"May 1, 2026, 6:15 PM","May 1, 2026, 7:10 PM",Dumbbell Row,,,8,normal,106.0,9,,,7.1
+Upper Body,demo workout,"May 1, 2026, 6:15 PM","May 1, 2026, 7:10 PM",Dumbbell Row,,,9,normal,113.0,10,,,7.3
+Upper Body,demo workout,"May 1, 2026, 6:15 PM","May 1, 2026, 7:10 PM",Plank,,,10,normal,,,,46,6.5
+Upper Body,demo workout,"May 1, 2026, 6:15 PM","May 1, 2026, 7:10 PM",Plank,,,11,normal,,,,56,6.7
+Lower Body,demo workout,"May 3, 2026, 6:00 PM","May 3, 2026, 7:00 PM",Goblet Squat,,,1,normal,93.8,8,,,6.7
+Lower Body,demo workout,"May 3, 2026, 6:00 PM","May 3, 2026, 7:00 PM",Goblet Squat,,,2,normal,100.8,9,,,6.9
+Lower Body,demo workout,"May 3, 2026, 6:00 PM","May 3, 2026, 7:00 PM",Goblet Squat,,,3,normal,107.8,10,,,7.1
+Lower Body,demo workout,"May 3, 2026, 6:00 PM","May 3, 2026, 7:00 PM",Romanian Deadlift,,,4,normal,93.8,8,,,6.7
+Lower Body,demo workout,"May 3, 2026, 6:00 PM","May 3, 2026, 7:00 PM",Romanian Deadlift,,,5,normal,100.8,9,,,6.9
+Lower Body,demo workout,"May 3, 2026, 6:00 PM","May 3, 2026, 7:00 PM",Romanian Deadlift,,,6,normal,107.8,10,,,7.1
+Lower Body,demo workout,"May 3, 2026, 6:00 PM","May 3, 2026, 7:00 PM",Plank,,,7,normal,,,,46,6.5
+Lower Body,demo workout,"May 3, 2026, 6:00 PM","May 3, 2026, 7:00 PM",Plank,,,8,normal,,,,56,6.7
+Zone 2 Cardio,demo cardio,"May 6, 2026, 7:15 AM","May 6, 2026, 8:05 AM",Treadmill,,,1,normal,,,3.2,3000,5.2
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Goblet Squat,,,1,normal,99.4,8,,,7.1
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Goblet Squat,,,2,normal,106.4,9,,,7.3
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Goblet Squat,,,3,normal,113.4,10,,,7.5
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Bench Press,,,4,normal,99.4,8,,,7.1
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Bench Press,,,5,normal,106.4,9,,,7.3
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Bench Press,,,6,normal,113.4,10,,,7.5
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Dumbbell Row,,,7,normal,99.4,8,,,7.1
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Dumbbell Row,,,8,normal,106.4,9,,,7.3
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Dumbbell Row,,,9,normal,113.4,10,,,7.5
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Romanian Deadlift,,,10,normal,99.4,8,,,7.1
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Romanian Deadlift,,,11,normal,106.4,9,,,7.3
+Full Body,demo workout,"May 8, 2026, 6:00 PM","May 8, 2026, 7:05 PM",Romanian Deadlift,,,12,normal,113.4,10,,,7.5
+Intervals,demo cardio,"May 11, 2026, 6:15 PM","May 11, 2026, 6:50 PM",Treadmill,,,1,normal,,,2.1,2100,8.0
+Upper Body,demo workout,"May 13, 2026, 6:00 PM","May 13, 2026, 6:55 PM",Bench Press,,,1,normal,97.0,8,,,7.2
+Upper Body,demo workout,"May 13, 2026, 6:00 PM","May 13, 2026, 6:55 PM",Bench Press,,,2,normal,104.0,9,,,7.4
+Upper Body,demo workout,"May 13, 2026, 6:00 PM","May 13, 2026, 6:55 PM",Bench Press,,,3,normal,111.0,10,,,7.6
+Upper Body,demo workout,"May 13, 2026, 6:00 PM","May 13, 2026, 6:55 PM",Lat Pulldown,,,4,normal,97.0,8,,,7.2
+Upper Body,demo workout,"May 13, 2026, 6:00 PM","May 13, 2026, 6:55 PM",Lat Pulldown,,,5,normal,104.0,9,,,7.4
+Upper Body,demo workout,"May 13, 2026, 6:00 PM","May 13, 2026, 6:55 PM",Lat Pulldown,,,6,normal,111.0,10,,,7.6
+Upper Body,demo workout,"May 13, 2026, 6:00 PM","May 13, 2026, 6:55 PM",Dumbbell Row,,,7,normal,97.0,8,,,7.2
+Upper Body,demo workout,"May 13, 2026, 6:00 PM","May 13, 2026, 6:55 PM",Dumbbell Row,,,8,normal,104.0,9,,,7.4
+Upper Body,demo workout,"May 13, 2026, 6:00 PM","May 13, 2026, 6:55 PM",Dumbbell Row,,,9,normal,111.0,10,,,7.6
+Upper Body,demo workout,"May 13, 2026, 6:00 PM","May 13, 2026, 6:55 PM",Plank,,,10,normal,,,,47,6.5
+Upper Body,demo workout,"May 13, 2026, 6:00 PM","May 13, 2026, 6:55 PM",Plank,,,11,normal,,,,57,6.7
+Lower Body,demo workout,"May 16, 2026, 6:15 PM","May 16, 2026, 7:15 PM",Goblet Squat,,,1,normal,99.8,8,,,7.0
+Lower Body,demo workout,"May 16, 2026, 6:15 PM","May 16, 2026, 7:15 PM",Goblet Squat,,,2,normal,106.8,9,,,7.2
+Lower Body,demo workout,"May 16, 2026, 6:15 PM","May 16, 2026, 7:15 PM",Goblet Squat,,,3,normal,113.8,10,,,7.4
+Lower Body,demo workout,"May 16, 2026, 6:15 PM","May 16, 2026, 7:15 PM",Romanian Deadlift,,,4,normal,99.8,8,,,7.0
+Lower Body,demo workout,"May 16, 2026, 6:15 PM","May 16, 2026, 7:15 PM",Romanian Deadlift,,,5,normal,106.8,9,,,7.2
+Lower Body,demo workout,"May 16, 2026, 6:15 PM","May 16, 2026, 7:15 PM",Romanian Deadlift,,,6,normal,113.8,10,,,7.4
+Lower Body,demo workout,"May 16, 2026, 6:15 PM","May 16, 2026, 7:15 PM",Plank,,,7,normal,,,,48,6.5
+Lower Body,demo workout,"May 16, 2026, 6:15 PM","May 16, 2026, 7:15 PM",Plank,,,8,normal,,,,58,6.7
+Zone 2 Cardio,demo cardio,"May 18, 2026, 7:00 AM","May 18, 2026, 7:50 AM",Treadmill,,,1,normal,,,3.2,3000,5.2
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Goblet Squat,,,1,normal,105.4,8,,,6.8
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Goblet Squat,,,2,normal,112.4,9,,,7.0
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Goblet Squat,,,3,normal,119.4,10,,,7.2
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Bench Press,,,4,normal,105.4,8,,,6.8
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Bench Press,,,5,normal,112.4,9,,,7.0
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Bench Press,,,6,normal,119.4,10,,,7.2
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Dumbbell Row,,,7,normal,105.4,8,,,6.8
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Dumbbell Row,,,8,normal,112.4,9,,,7.0
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Dumbbell Row,,,9,normal,119.4,10,,,7.2
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Romanian Deadlift,,,10,normal,105.4,8,,,6.8
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Romanian Deadlift,,,11,normal,112.4,9,,,7.0
+Full Body,demo workout,"May 21, 2026, 6:15 PM","May 21, 2026, 7:20 PM",Romanian Deadlift,,,12,normal,119.4,10,,,7.2
+Intervals,demo cardio,"May 23, 2026, 6:00 PM","May 23, 2026, 6:35 PM",Treadmill,,,1,normal,,,2.1,2100,8.0
+Upper Body,demo workout,"May 26, 2026, 6:15 PM","May 26, 2026, 7:10 PM",Bench Press,,,1,normal,103.0,8,,,7.3
+Upper Body,demo workout,"May 26, 2026, 6:15 PM","May 26, 2026, 7:10 PM",Bench Press,,,2,normal,110.0,9,,,7.5
+Upper Body,demo workout,"May 26, 2026, 6:15 PM","May 26, 2026, 7:10 PM",Bench Press,,,3,normal,117.0,10,,,7.7
+Upper Body,demo workout,"May 26, 2026, 6:15 PM","May 26, 2026, 7:10 PM",Lat Pulldown,,,4,normal,103.0,8,,,7.3
+Upper Body,demo workout,"May 26, 2026, 6:15 PM","May 26, 2026, 7:10 PM",Lat Pulldown,,,5,normal,110.0,9,,,7.5
+Upper Body,demo workout,"May 26, 2026, 6:15 PM","May 26, 2026, 7:10 PM",Lat Pulldown,,,6,normal,117.0,10,,,7.7
+Upper Body,demo workout,"May 26, 2026, 6:15 PM","May 26, 2026, 7:10 PM",Dumbbell Row,,,7,normal,103.0,8,,,7.3
+Upper Body,demo workout,"May 26, 2026, 6:15 PM","May 26, 2026, 7:10 PM",Dumbbell Row,,,8,normal,110.0,9,,,7.5
+Upper Body,demo workout,"May 26, 2026, 6:15 PM","May 26, 2026, 7:10 PM",Dumbbell Row,,,9,normal,117.0,10,,,7.7
+Upper Body,demo workout,"May 26, 2026, 6:15 PM","May 26, 2026, 7:10 PM",Plank,,,10,normal,,,,49,6.5
+Upper Body,demo workout,"May 26, 2026, 6:15 PM","May 26, 2026, 7:10 PM",Plank,,,11,normal,,,,59,6.7
+Lower Body,demo workout,"May 28, 2026, 6:00 PM","May 28, 2026, 7:00 PM",Goblet Squat,,,1,normal,105.8,8,,,7.3
+Lower Body,demo workout,"May 28, 2026, 6:00 PM","May 28, 2026, 7:00 PM",Goblet Squat,,,2,normal,112.8,9,,,7.5
+Lower Body,demo workout,"May 28, 2026, 6:00 PM","May 28, 2026, 7:00 PM",Goblet Squat,,,3,normal,119.8,10,,,7.7
+Lower Body,demo workout,"May 28, 2026, 6:00 PM","May 28, 2026, 7:00 PM",Romanian Deadlift,,,4,normal,105.8,8,,,7.3
+Lower Body,demo workout,"May 28, 2026, 6:00 PM","May 28, 2026, 7:00 PM",Romanian Deadlift,,,5,normal,112.8,9,,,7.5
+Lower Body,demo workout,"May 28, 2026, 6:00 PM","May 28, 2026, 7:00 PM",Romanian Deadlift,,,6,normal,119.8,10,,,7.7
+Lower Body,demo workout,"May 28, 2026, 6:00 PM","May 28, 2026, 7:00 PM",Plank,,,7,normal,,,,49,6.5
+Lower Body,demo workout,"May 28, 2026, 6:00 PM","May 28, 2026, 7:00 PM",Plank,,,8,normal,,,,59,6.7
+Zone 2 Cardio,demo cardio,"May 31, 2026, 7:15 AM","May 31, 2026, 8:05 AM",Treadmill,,,1,normal,,,3.2,3000,5.2

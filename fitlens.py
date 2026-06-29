@@ -4,8 +4,6 @@
 Run this file and follow the prompts.
 """
 
-from __future__ import annotations
-
 import os
 import sys
 import traceback
@@ -161,6 +159,12 @@ def fmt_change(value):
         return "n/a"
     sign = "+" if value >= 0 else ""
     return f"{sign}{value:.1f}%"
+
+
+def fmt_delta(current, previous):
+    if current is None or previous in (None, 0):
+        return "n/a"
+    return fmt_change((current - previous) / previous * 100.0)
 
 
 def fmt_date_range(window):
@@ -369,6 +373,69 @@ def render_insights(db_path):
     panel("\n".join(lines), title="Coach Insights", style="green")
 
 
+def render_recommendations(db_path):
+    data = insights.coach_recommendations(db_path)
+    if not data["latest_date"]:
+        panel("No data found yet. Import your exports first.",
+              title="Coach Recommendations", style="yellow")
+        return
+
+    current = data["current"]
+    previous = data["previous"]
+    readiness = data["readiness"]
+    style = {"green": "green", "yellow": "yellow", "red": "red"}.get(readiness, "cyan")
+    current_range = fmt_date_range(data["current_window"])
+    previous_range = fmt_date_range(data["previous_window"])
+    reasons = "; ".join(data["readiness_reasons"])
+
+    overview = [
+        f"[bold]Readiness:[/bold] [{style}]{readiness.upper()}[/{style}]",
+        f"[bold]Current month:[/bold] {current_range}",
+        f"[dim]Compared with: {previous_range}[/dim]",
+        "",
+        f"Training: {current['workouts']} workouts, {fmt_minutes(current['duration_min'])} "
+        f"({fmt_delta(current['duration_min'], previous['duration_min'])})",
+        f"Strength: {current['strength_sets']} sets "
+        f"({fmt_delta(current['strength_sets'], previous['strength_sets'])})",
+        f"Cardio: {fmt_minutes(current['cardio_min'])} total, "
+        f"{fmt_minutes(current['zone2_min'])} Zone 2, "
+        f"{fmt_minutes(current['hard_cardio_min'])} hard",
+        f"Sleep: {fmt_minutes(current['sleep_min'])} avg",
+        "",
+        f"[dim]{reasons}[/dim]",
+    ]
+    panel("\n".join(overview), title="Coach Recommendations", style=style)
+
+    rec_tbl = Table(title="Priority Actions", show_header=True, header_style="bold cyan")
+    rec_tbl.add_column("Priority")
+    rec_tbl.add_column("Area")
+    rec_tbl.add_column("Recommendation")
+    rec_tbl.add_column("Action")
+    rec_tbl.add_column("Timeframe")
+    for rec in data["recommendations"]:
+        rec_tbl.add_row(
+            rec["priority"].title(),
+            rec["area"].title(),
+            f"[bold]{rec['title']}[/bold]\n[dim]{rec['evidence']}[/dim]",
+            rec["action"],
+            rec["timeframe"],
+        )
+    console.print(rec_tbl)
+
+    plan_tbl = Table(title="Next 4 Weeks", show_header=True, header_style="bold cyan")
+    for col in ("Week", "Lifting", "Cardio", "Intensity", "Progression"):
+        plan_tbl.add_column(col)
+    for week in data["monthly_plan"]:
+        plan_tbl.add_row(
+            week["week"],
+            week["lifting"],
+            week["cardio"],
+            week["recovery"],
+            week["progression"],
+        )
+    console.print(plan_tbl)
+
+
 def onboarding(db_path):
     panel(
         "Welcome to [bold cyan]FitLens[/bold cyan] 👋\n\n"
@@ -423,8 +490,79 @@ def import_existing(db_path, snap):
     show_report(report, returning=True)
 
 
+GROUP_ORDER = [
+    ("chest", [("upper_chest", "upper"), ("mid_chest", "mid"), ("lower_chest", "lower")]),
+    ("shoulders", [("front_delts", "front"), ("side_delts", "side"), ("rear_delts", "rear")]),
+    ("back", [("lats", "lats"), ("mid_back", "rows")]),
+    ("triceps", []),
+    ("biceps", []),
+    ("quads", [("quad_compound", "compound"), ("quad_isolation", "isolation")]),
+    ("hamstrings", [("ham_hinge", "hinge"), ("ham_curl", "curl")]),
+    ("glutes", []),
+    ("adductors", []),
+    ("abductors", []),
+    ("calves", []),
+    ("core", [("abs", "abs"), ("obliques", "obliques"), ("lower_back", "low-back")]),
+]
+
+
+def render_movement_balance(db_path):
+    data = insights.movement_balance(db_path)
+    if not data["latest_date"]:
+        panel("No data found yet. Import your exports first.",
+              title="Movement Balance", style="yellow")
+        return
+
+    groups = data["groups"]
+    muscles = data["muscles"]
+    quad, ham = data["quad_ham"]
+
+    lines = [
+        f"[bold]Window:[/bold] {fmt_date_range(data['window'])}  "
+        f"[dim]({data['strength_sets']:.0f} sets, {fmt_num(data['classified_pct'], 0)}% classified)[/dim]",
+        "[dim]Fractional sets: 1.0 per primary muscle, 0.5 per assisting muscle.[/dim]",
+        "",
+        "[bold cyan]Volume by muscle group[/bold cyan]",
+    ]
+    for group, leaves in GROUP_ORDER:
+        total = groups.get(group, 0.0)
+        line = f"  {group.capitalize():12} {total:5.1f}"
+        subs = [f"{label} {muscles[leaf]:.1f}" for leaf, label in leaves if muscles.get(leaf, 0.0)]
+        if subs:
+            line += f"   [dim]({', '.join(subs)})[/dim]"
+        lines.append(line)
+
+    chest = groups.get("chest", 0.0)
+    back = groups.get("back", 0.0)
+    biceps = groups.get("biceps", 0.0)
+    triceps = groups.get("triceps", 0.0)
+    lines.extend([
+        "",
+        "[bold cyan]Balance[/bold cyan] [dim](same-role muscles, not push vs pull)[/dim]",
+        f"  Chest : Back      {chest:.0f} : {back:.0f}   [dim]({_ratio_str(chest, back)})[/dim]",
+        f"  Quads : Hams      {quad:.0f} : {ham:.0f}   [dim]({_ratio_str(quad, ham)})[/dim]",
+        f"  Biceps : Triceps  {biceps:.0f} : {triceps:.0f}   [dim]({_ratio_str(biceps, triceps)})[/dim]",
+    ])
+
+    if data["unmapped"]:
+        lines.extend(["", "[bold yellow]Unmapped exercises[/bold yellow] "
+                      "[dim](add to taxonomy.EXERCISE_MAP)[/dim]"])
+        for title, n in sorted(data["unmapped"].items(), key=lambda x: -x[1]):
+            lines.append(f"  • {title} ({n})")
+
+    panel("\n".join(lines), title="Movement Balance", style="cyan")
+
+
+def _ratio_str(a, b):
+    if not b:
+        return "second is zero" if a else "n/a"
+    return f"{a / b:.2f}x"
+
+
 MENU_CHOICES = [
     "Coach insights",
+    "Coach recommendations",
+    "Movement balance",
     "Recent workouts",
     "Weekly training summary",
     "Recovery trends",
@@ -440,6 +578,10 @@ def coach_menu(db_path, snap):
         choice = ask_select("What do you want to do?", MENU_CHOICES, default="Coach insights")
         if choice == "Coach insights":
             render_insights(db_path)
+        elif choice == "Coach recommendations":
+            render_recommendations(db_path)
+        elif choice == "Movement balance":
+            render_movement_balance(db_path)
         elif choice == "Recent workouts":
             render_recent(db_path, limit=10)
         elif choice == "Weekly training summary":

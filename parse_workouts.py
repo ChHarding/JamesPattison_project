@@ -1,7 +1,5 @@
 """Hevy CSV -> workouts and sets."""
 
-from __future__ import annotations
-
 import csv
 from datetime import datetime
 from zoneinfo import ZoneInfo
