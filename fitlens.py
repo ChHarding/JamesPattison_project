@@ -185,7 +185,7 @@ def render_status(db_path):
     sleep_lo, sleep_hi = data["sleep_range"]
     meta = data["meta"]
 
-    tbl = Table(title="Database Status", show_header=True, header_style="bold cyan")
+    tbl = Table(title="Imported Data Counts", show_header=True, header_style="bold cyan")
     tbl.add_column("Area")
     tbl.add_column("Count", justify="right")
     for key, label in (
@@ -205,7 +205,7 @@ def render_status(db_path):
         f"Sleep: {sleep_lo or 'n/a'} -> {sleep_hi or 'n/a'}\n"
         f"Last import: {meta.get('last_run', 'n/a')}"
     )
-    panel(ranges, title="Coverage", style="cyan")
+    panel(ranges, title="Data Coverage", style="cyan")
 
 
 def render_recent(db_path, limit=10):
@@ -566,7 +566,7 @@ MENU_CHOICES = [
     "Recent workouts",
     "Weekly training summary",
     "Recovery trends",
-    "Database status",
+    "Data coverage",
     "Import new data",
     "Quit",
 ]
@@ -588,7 +588,7 @@ def coach_menu(db_path, snap):
             render_weekly(db_path, weeks=8)
         elif choice == "Recovery trends":
             render_recovery(db_path)
-        elif choice == "Database status":
+        elif choice == "Data coverage":
             render_status(db_path)
         elif choice == "Import new data":
             import_existing(db_path, snap)

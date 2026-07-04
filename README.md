@@ -9,7 +9,7 @@ It builds `fitlens.db`, then lets me look at:
 - recent workouts
 - weekly training load
 - recovery trends
-- import/database status
+- data coverage and import status
 
 ## Setup
 
