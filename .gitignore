@@ -5,3 +5,4 @@ __pycache__/
 *.db-wal
 *.db-shm
 fitlens_error.log
+.DS_Store
