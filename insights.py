@@ -115,14 +115,35 @@ def _latest_data_date(conn) -> date | None:
 
 def _workout_totals(conn, start: str | None, end: str | None) -> dict:
     if not start or not end:
-        return {"count": 0, "duration_min": 0.0, "avg_effort": None}
+        return {
+            "count": 0,
+            "duration_min": 0.0,
+            "sets": 0,
+            "volume_lbs": 0.0,
+            "avg_effort": None,
+        }
     row = conn.execute(
         """
+        WITH set_totals AS (
+            SELECT
+                workout_id,
+                COUNT(*) sets,
+                SUM(CASE
+                    WHEN weight_lbs IS NOT NULL AND reps IS NOT NULL
+                    THEN weight_lbs * reps
+                    ELSE 0
+                END) volume_lbs
+            FROM workout_sets
+            GROUP BY workout_id
+        )
         SELECT
             COUNT(*) workouts,
             COALESCE(SUM(w.duration_sec), 0) / 60.0 duration_min,
+            COALESCE(SUM(st.sets), 0) sets,
+            COALESCE(SUM(st.volume_lbs), 0) volume_lbs,
             AVG(eff.avg) avg_effort
         FROM workouts w
+        LEFT JOIN set_totals st ON st.workout_id = w.workout_id
         LEFT JOIN workout_health_summary eff
             ON eff.workout_id = w.workout_id
            AND eff.metric_type = 'PhysicalEffort'
@@ -133,6 +154,8 @@ def _workout_totals(conn, start: str | None, end: str | None) -> dict:
     return {
         "count": row["workouts"] or 0,
         "duration_min": row["duration_min"] or 0.0,
+        "sets": row["sets"] or 0,
+        "volume_lbs": row["volume_lbs"] or 0.0,
         "avg_effort": row["avg_effort"],
     }
 

@@ -1,0 +1,1 @@
+"""FitLens desktop application package."""

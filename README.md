@@ -1,6 +1,6 @@
 # FitLens
 
-Local CLI for combining my Hevy export with Apple Health data.
+Local fitness dashboard and CLI for combining my Hevy export with Apple Health data.
 
 It builds `fitlens.db`, then lets me look at:
 
@@ -17,11 +17,15 @@ It builds `fitlens.db`, then lets me look at:
 cd FitLens
 /opt/homebrew/bin/python3.12 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/python fitlens.py
+.venv/bin/python desktop.py
 ```
 
 I use Python 3.12 for the virtual environment. Python 3.14 made the prompt UI
 imports hang on my machine.
+
+The desktop dashboard also needs a Python build with Tk support. On Homebrew,
+install it with `brew install python-tk@3.12` before creating the virtual
+environment. The CLI does not need Tk.
 
 ## Exports
 
@@ -40,7 +44,28 @@ Hevy:
 
 If both files are in `~/Downloads`, FitLens will usually find them.
 
-## How I use it
+## Desktop dashboard
+
+The main entry point is the CustomTkinter desktop dashboard:
+
+```bash
+.venv/bin/python desktop.py
+```
+
+On a first run, the dashboard guides you through selecting your Apple Health XML
+export and Hevy CSV export, choosing a timezone and history window, and importing
+the data. When the import finishes, it opens the dashboard automatically.
+
+The landing view combines monthly coaching status, the latest 30 days of training
+compared with the previous 30 days, 30-day recovery averages, priority actions,
+and the next four-week plan. Use **Import new data** to add fresh exports to an
+existing database; FitLens reconciles them using its stored import watermark and
+then returns to the dashboard.
+
+## CLI fallback
+
+The guided CLI remains available for importing data and viewing the original
+analysis screens:
 
 Run:
 
@@ -120,6 +145,9 @@ LIMIT 10;
 
 ## Files
 
+- `desktop.py` - thin desktop entry point
+- `desktop/` - desktop package containing the app shell, dashboard, onboarding,
+  reusable components, formatting, theme, and Tk integration
 - `fitlens.py` - CLI/menu
 - `insights.py` - coach queries
 - `taxonomy.py` - exercise -> muscle classification
